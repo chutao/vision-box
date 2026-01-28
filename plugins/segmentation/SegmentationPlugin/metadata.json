@@ -1,0 +1,8 @@
+{
+    "Keys": ["segmentation"],
+    "className": "VisionBox::SegmentationPlugin",
+    "name": "Segmentation Plugin",
+    "version": "1.0.0",
+    "description": "Provides image segmentation operations (K-means clustering)",
+    "author": "VisionBox Team"
+}

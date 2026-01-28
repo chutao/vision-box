@@ -1,0 +1,8 @@
+{
+    "Keys": ["geometrictransform"],
+    "className": "VisionBox::GeometricTransformPlugin",
+    "name": "Geometric Transform Plugin",
+    "version": "1.0.0",
+    "description": "Provides geometric transformation operations (resize, rotate, flip)",
+    "author": "VisionBox Team"
+}

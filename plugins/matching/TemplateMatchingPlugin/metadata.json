@@ -1,0 +1,8 @@
+{
+    "Keys": ["templatematching"],
+    "className": "VisionBox::TemplateMatchingPlugin",
+    "name": "Template Matching Plugin",
+    "version": "1.0.0",
+    "description": "Provides template matching operations (pattern detection)",
+    "author": "VisionBox Team"
+}

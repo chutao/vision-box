@@ -1,0 +1,8 @@
+{
+    "Keys": ["affine", "perspective", "transform", "warp"],
+    "className": "VisionBox::AdvancedTransformPlugin",
+    "name": "Advanced Transform Plugin",
+    "version": "1.0.0",
+    "description": "Provides affine and perspective transformations",
+    "author": "VisionBox Team"
+}

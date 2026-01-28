@@ -1,0 +1,8 @@
+{
+    "Keys": ["edgedetection"],
+    "className": "VisionBox::EdgeDetectionPlugin",
+    "name": "Edge Detection Plugin",
+    "version": "1.0.0",
+    "description": "Provides edge detection algorithms (Canny, Sobel, Laplacian, Scharr)",
+    "author": "VisionBox Team"
+}

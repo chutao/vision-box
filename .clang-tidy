@@ -1,0 +1,72 @@
+---
+# VisionBox Clang-Tidy Configuration
+# Static analysis checks for code quality and safety
+
+# Inherit from default configuration
+InheritParentConfig: false
+
+# Checks enabled
+Checks: >
+  bugprone-*,
+  -bugprone-easily-swappable-parameters,
+  -bugprone-macro-parentheses,
+  -bugprone-narrowing-conversions,
+  -bugprone-suspicious-enum-usage,
+  -bugprone-suspicious-missing-comma,
+  -bugprone-suspicious-string-compare,
+  cert-*,
+  -cert-err58-cpp,
+  clang-analyzer-*,
+  -clang-analyzer-optin.cplusplus.VirtualCall,
+  -clang-analyzer-optin.cplusplus.UninitializedObject,
+  -clang-analyzer-optin.performance.GCDAntipattern,
+  misc-*,
+  -misc-non-private-member-variables-in-classes,
+  modernize-*,
+  -modernize-avoid-c-arrays,
+  -modernize-use-trailing-return-type,
+  performance-*,
+  -performance-magic-number,
+  readability-*,
+  -readability-identifier-length,
+  -readability-function-cognitive-complexity,
+  -readability-magic-numbers,
+  -readability-redundant-access-specifiers
+
+# Check options
+CheckOptions:
+  - key: readability-identifier-length.ClassMemberMinimumLength
+    value: 3
+  - key: readability-identifier-length.ClassMemberParameterName
+    value: 3
+  - key: readability-identifier-length.ConstantParameterName
+    value: 3
+  - key: readability-identifier-length.EnumConstantMinimumLength
+    value: 3
+  - key: readability-identifier-length.FunctionMinimumLength
+    value: 3
+  - key: readability-identifier-length.GlobalConstantMinimumLength
+    value: 3
+  - key: readability-identifier-length.GlobalVariableMinimumLength
+    value: 3
+  - key: readability-identifier-length.IgnoreMainLikeFunctions
+    value: 1
+  - key: readability-identifier-length.LocalVariableMinimumLength
+    value: 3
+  - key: readability-identifier-length.ParameterMinimumLength
+    value: 3
+  - key: readability-identifier-length.StrictMemberVariableMinimumLength
+    value: 3
+  - key: readability-identifier-length.TemplateParameterMinimumLength
+    value: 3
+  - key: readability-function-cognitive-complexity.Threshold
+    value: 50
+
+# Header filter (analyze all project headers)
+HeaderFilterRegex: '.*'
+
+# Format style
+FormatStyle: file
+
+# System headers (don't analyze Qt and OpenCV headers)
+SystemHeaders: false

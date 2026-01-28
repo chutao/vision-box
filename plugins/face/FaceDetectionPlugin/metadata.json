@@ -1,0 +1,8 @@
+{
+    "Keys": ["facedetection"],
+    "className": "VisionBox::FaceDetectionPlugin",
+    "name": "Face Detection Plugin",
+    "version": "1.0.0",
+    "description": "Provides face detection operations (Haar cascade classifiers)",
+    "author": "VisionBox Team"
+}

@@ -1,0 +1,8 @@
+{
+    "Keys": ["distancetransform"],
+    "className": "VisionBox::DistanceTransformPlugin",
+    "name": "Distance Transform Plugin",
+    "version": "1.0.0",
+    "description": "Provides distance transform operations for binary images",
+    "author": "VisionBox Team"
+}

@@ -1,0 +1,96 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+!cmake/*.cmake.in
+
+# Qt generated files
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.pro.user
+*.qmlc
+*.jsc
+
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+*.app
+
+# Qt Creator
+*.autosave
+*.qmlproject.user
+*.qmlproject.user.*
+*.autosave
+
+# Qt Tests
+*_wrapper.c
+*_autogen
+*_automoc.cpp
+*_plugin_import.cpp
+
+# Code analysis
+compile_commands.json
+.clangd/
+.cache/
+
+# Clang-Tidy output
+clang-tidy.log
+*.tidy
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+
+# Qt NodeEditor submodule
+external/QtNodes/
+
+# Plugin binaries (if building locally)
+plugins/*.so
+plugins/*.dll
+plugins/*.dylib
+
+# Test outputs
+tests/results/
+*.log
+
+# Temporary files
+tmp/
+temp/

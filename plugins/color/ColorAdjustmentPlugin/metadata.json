@@ -1,0 +1,8 @@
+{
+    "Keys": ["coloradjustment"],
+    "className": "VisionBox::ColorAdjustmentPlugin",
+    "name": "Color Adjustment Plugin",
+    "version": "1.0.0",
+    "description": "Provides color and tonal adjustments (brightness/contrast, saturation)",
+    "author": "VisionBox Team"
+}

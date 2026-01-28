@@ -1,0 +1,22 @@
+{
+    "PluginId": "advanceddetection",
+    "PluginName": "Advanced Detection Plugin",
+    "PluginVersion": "1.0.0",
+    "PluginDescription": "Advanced object detection and segmentation algorithms (YOLO, GrabCut)",
+    "PluginAuthor": "VisionBox Team",
+    "PluginCategory": "Detection",
+    "NodeModels": [
+        {
+            "Name": "YOLOObjectDetectorModel",
+            "DisplayName": "YOLO Detector",
+            "Category": "Detection",
+            "Description": "Real-time object detection using YOLO (You Only Look Once)"
+        },
+        {
+            "Name": "GrabCutSegmentationModel",
+            "DisplayName": "GrabCut Segmentation",
+            "Category": "Segmentation",
+            "Description": "Interactive foreground extraction using GrabCut algorithm"
+        }
+    ]
+}

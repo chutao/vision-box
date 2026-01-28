@@ -1,0 +1,8 @@
+{
+    "Keys": ["opticalflow"],
+    "className": "VisionBox::OpticalFlowPlugin",
+    "name": "Optical Flow Plugin",
+    "version": "1.0.0",
+    "description": "Provides optical flow operations (motion tracking)",
+    "author": "VisionBox Team"
+}

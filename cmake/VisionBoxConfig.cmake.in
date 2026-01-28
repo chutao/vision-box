@@ -1,0 +1,25 @@
+# VisionBoxConfig.cmake
+# CMake configuration file for VisionBox
+
+# VisionBox version
+set(VisionBox_VERSION @PROJECT_VERSION@)
+
+# VisionBox installation directories
+set(VisionBox_INCLUDE_DIR "@CMAKE_INSTALL_PREFIX@/@INSTALL_INCLUDE_DIR@")
+set(VisionBox_LIB_DIR "@CMAKE_INSTALL_PREFIX@/@INSTALL_LIB_DIR@")
+set(VisionBox_BIN_DIR "@CMAKE_INSTALL_PREFIX@/@INSTALL_BIN_DIR@")
+
+# Dependencies
+set(VisionBox_QT_VERSION_MAJOR @QT_VERSION_MAJOR@)
+set(VisionBox_OPENCV_VERSION "@OpenCV_VERSION@")
+
+# Find dependencies
+find_package(Qt@VisionBox_QT_VERSION_MAJOR@ REQUIRED COMPONENTS Core Widgets)
+find_package(OpenCV @OpenCV_VERSION@ REQUIRED COMPONENTS core imgproc imgcodecs videoio)
+
+# Create imported target for VisionBox (if needed)
+# add_library(VisionBox::VisionBox STATIC IMPORTED)
+# set_target_properties(VisionBox::VisionBox PROPERTIES
+#     INTERFACE_INCLUDE_DIRECTORIES "${VisionBox_INCLUDE_DIR}"
+#     INTERFACE_LINK_LIBRARIES "Qt::Qt@VisionBox_QT_VERSION_MAJOR@;OpenCV::OpenCV"
+# )

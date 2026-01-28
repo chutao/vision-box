@@ -1,0 +1,3 @@
+[submodule "external/QtNodes"]
+	path = external/QtNodes
+	url = https://github.com/paceholder/nodeeditor.git

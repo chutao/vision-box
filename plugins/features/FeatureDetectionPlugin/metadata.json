@@ -1,0 +1,8 @@
+{
+    "Keys": ["featuredetection"],
+    "className": "VisionBox::FeatureDetectionPlugin",
+    "name": "Feature Detection Plugin",
+    "version": "1.0.0",
+    "description": "Provides feature detection operations (Harris corners, Shi-Tomasi)",
+    "author": "VisionBox Team"
+}

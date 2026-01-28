@@ -1,0 +1,28 @@
+{
+    "PluginId": "export",
+    "PluginName": "Export Plugin",
+    "PluginVersion": "1.0.0",
+    "PluginDescription": "Export nodes for saving images, videos, and data to disk",
+    "PluginAuthor": "VisionBox Team",
+    "PluginCategory": "Exporters",
+    "NodeModels": [
+        {
+            "Name": "ImageExporterModel",
+            "DisplayName": "Image Exporter",
+            "Category": "Exporters",
+            "Description": "Save images to disk in various formats"
+        },
+        {
+            "Name": "VideoExporterModel",
+            "DisplayName": "Video Exporter",
+            "Category": "Exporters",
+            "Description": "Record video streams to disk"
+        },
+        {
+            "Name": "DataExporterModel",
+            "DisplayName": "Data Exporter",
+            "Category": "Exporters",
+            "Description": "Export data to CSV or JSON files"
+        }
+    ]
+}

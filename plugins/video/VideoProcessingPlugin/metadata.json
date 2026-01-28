@@ -1,0 +1,8 @@
+{
+    "Keys": ["videoprocessing"],
+    "className": "VisionBox::VideoProcessingPlugin",
+    "name": "Video Processing Plugin",
+    "version": "1.0.0",
+    "description": "Provides video processing operations (background subtraction, motion detection)",
+    "author": "VisionBox Team"
+}

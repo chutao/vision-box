@@ -1,0 +1,8 @@
+{
+    "Keys": ["imageviewer"],
+    "className": "VisionBox::ImageViewerPlugin",
+    "name": "Image Viewer Plugin",
+    "version": "1.0.0",
+    "description": "Provides image visualization and display nodes",
+    "author": "VisionBox Team"
+}

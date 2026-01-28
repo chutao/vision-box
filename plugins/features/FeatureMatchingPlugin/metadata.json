@@ -1,0 +1,8 @@
+{
+    "Keys": ["sift", "surf", "feature", "matching"],
+    "className": "VisionBox::FeatureMatchingPlugin",
+    "name": "Feature Matching Plugin",
+    "version": "1.0.0",
+    "description": "Provides SIFT, SURF feature detection and feature matching",
+    "author": "VisionBox Team"
+}

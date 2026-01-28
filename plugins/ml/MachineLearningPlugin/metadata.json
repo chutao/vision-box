@@ -1,0 +1,8 @@
+{
+    "Keys": ["dnn", "inference", "tracker", "ml", "tracking"],
+    "className": "VisionBox::MachineLearningPlugin",
+    "name": "Machine Learning Plugin",
+    "version": "1.0.0",
+    "description": "Provides DNN inference and object tracking",
+    "author": "VisionBox Team"
+}

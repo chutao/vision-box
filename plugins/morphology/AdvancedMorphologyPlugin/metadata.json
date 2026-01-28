@@ -1,0 +1,8 @@
+{
+    "Keys": ["advancedmorphology"],
+    "className": "VisionBox::AdvancedMorphologyPlugin",
+    "name": "Advanced Morphology Plugin",
+    "version": "1.0.0",
+    "description": "Provides advanced morphological operations (top hat, black hat, gradient)",
+    "author": "VisionBox Team"
+}

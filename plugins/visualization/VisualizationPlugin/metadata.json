@@ -1,0 +1,28 @@
+{
+    "PluginId": "visualization",
+    "PluginName": "Visualization Plugin",
+    "PluginVersion": "1.0.0",
+    "PluginDescription": "Visualization tools for drawing overlays and displaying features",
+    "PluginAuthor": "VisionBox Team",
+    "PluginCategory": "Visualization",
+    "NodeModels": [
+        {
+            "Name": "BoundingBoxOverlayModel",
+            "DisplayName": "Bounding Box Overlay",
+            "Category": "Visualization",
+            "Description": "Draw bounding boxes and labels on images"
+        },
+        {
+            "Name": "KeypointViewerModel",
+            "DisplayName": "Keypoint Viewer",
+            "Category": "Visualization",
+            "Description": "Visualize feature points and keypoints"
+        },
+        {
+            "Name": "DrawingOverlayModel",
+            "DisplayName": "Drawing Overlay",
+            "Category": "Visualization",
+            "Description": "Draw shapes and text annotations on images"
+        }
+    ]
+}

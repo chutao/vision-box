@@ -1,0 +1,8 @@
+{
+    "Keys": ["watershed"],
+    "className": "VisionBox::WatershedSegmentationPlugin",
+    "name": "Watershed Segmentation Plugin",
+    "version": "1.0.0",
+    "description": "Provides watershed segmentation (marker-based image segmentation)",
+    "author": "VisionBox Team"
+}

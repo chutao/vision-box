@@ -1,0 +1,8 @@
+{
+    "Keys": ["histogram"],
+    "className": "VisionBox::HistogramPlugin",
+    "name": "Histogram Plugin",
+    "version": "1.0.0",
+    "description": "Provides histogram-based operations (equalization, CLAHE)",
+    "author": "VisionBox Team"
+}
